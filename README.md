@@ -21,5 +21,7 @@ js/pages/*.js         content and behaviour for each page
 2. Copy any dashboard HTML file (e.g. `yard.html`) to `<key>.html` and change the title and the last script to `js/pages/<key>.js`.
 3. In `js/pages/<key>.js` define `V.<key>=()=>\`...html...\``, optionally `BIND.<key>=()=>{...}`, then call `SP.mount('<key>')`.
 
+type ``` npx serve .``` to run  
+
 The shared layout (sidebar, top bar, theme toggle, active menu item, breadcrumb) lives only in `js/layout.js`.
 All data in the pages is sample data from the Figma design.
